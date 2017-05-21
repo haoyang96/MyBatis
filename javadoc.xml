@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" additionalparam=" -encoding UTF-8 -charset UTF-8" author="true" classpath="lib/log4j-1.2.17.jar;F:\EclipseJEEMars2\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar;lib/mybatis-3.2.7.jar;lib/mysqldriver.jar;F:\EclipseJEEMars2\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="com.movie.util,com.movie.score.model,com.movie.score.mapper,com.movie.score.test" source="1.8" sourcepath="test;src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>
